@@ -6,6 +6,7 @@ import nextjs from "../assets/nextjs.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import reactImage from "../assets/reactImage.png";
+import typescript from "../assets/typescript.jpg";
 
 const Experience = () => {
     const technologies =[
@@ -49,6 +50,12 @@ const Experience = () => {
             id:7,
             src:github,
             title:'GitHub',
+            style:'shadow-gray-400',
+        },
+        {
+            id:8,
+            src:typescript,
+            title:'Typescript',
             style:'shadow-gray-400',
         },
     ]

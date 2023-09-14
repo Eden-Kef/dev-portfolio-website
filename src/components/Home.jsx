@@ -13,12 +13,12 @@ const Home = () => {
        items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center">
       <h2 className="text-4xl text-white sm:text-7xl font-bold">
-         I'm a Front-End Developer
+         I'm a Full-Stack Developer
           </h2>
         <p className= "text-white py-8 max-w-md"> 
         I have 4 years of experience building and designing websites.
         I specialize on web application technoligies like ReactJS, Tailwind, 
-        Next JS and Typescript. <br/>I'm from Addis Ababa, Ethiopia.
+        Next JS, Typescript and NodeJS. <br/>I'm from Addis Ababa, Ethiopia.
         </p>
         
         <div>

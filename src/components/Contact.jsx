@@ -55,12 +55,14 @@ const Contact = () => {
         </div>
         <div className='flex justify-center place-items-center'>
           <form action="" className='flex flex-col  w-full md:w-1/2'>
-          <input type='text' name='name' placeholder='Enter Your Name' className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'/>
-          <input type='text' name='email' placeholder='Enter Your Email' className='p-2 my-4 bg-transparent border-2 rounded-md text-white focus:outline-none'/>
+          <input type='text' name='name' placeholder='Enter Your Name' required className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'/>
+          <input type='email' name='email' placeholder='Enter Your Email' required  pattern="([a-zA-Z0-9_.+-]+)@[a-zA-Z0-9_.+-]+\.[a-zA-Z0-9_.+-]" className='p-2 my-4 bg-transparent border-2 rounded-md text-white focus:outline-none'/>
           <textarea 
            name = "message"
            rows = "10"
+           minlength="10" maxlength="100" 
            placeholder='Enter Your Message'
+           required
            className='p-2 bg-transparent border-2 rounded-md
             text-white focus:outline-none'>
           </textarea>
