@@ -28,9 +28,9 @@ const NavBar = () => {
     ]
   return (
   
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white scroll bg-gradient-to-r from-slate-900 via-slate-800 to-slate-700">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-white scroll bg-gradient-to-r from-sky-950 via-slate-800 to-slate-900">
       <div>
-        <h1 className = "text-4xl font-signature ml-2 "> Samuel Wondimu </h1>
+        <h1 className = "text-4xl font-signature ml-2 "> Eden Kefale </h1>
       </div>
       <ul className = "hidden md:flex">  {/*navbar*/}
         {links.map(({ id, link }) => (

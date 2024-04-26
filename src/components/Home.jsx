@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 const Home = () => {
   return (
     <div name= "home" 
-    className="md-h-screen w-full py-20 text-white bg-gradient-to-r from-slate-900 via-slate-800 to-slate-700">
+    className="md-h-screen w-full py-20 text-white bg-gradient-to-r from-sky-950 via-slate-800 to-slate-900">
     {/* background color gradient from top to bottom the middle part will be black then gray*/}
       
       <div className="max-w-screen-lg mx-auto flex flex-col
